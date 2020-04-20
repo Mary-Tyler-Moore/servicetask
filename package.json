@@ -12,6 +12,7 @@
     "deploy": "quasar build -m pwa && firebase deploy",
     "deploy-host": "quasar build -m pwa && firebase deploy --only hosting",
     "dev": "quasar dev -m pwa",
+    "build": "quasar build -m spa",
     "test:unit": "jest --updateSnapshot",
     "test:unit:coverage": "jest --coverage",
     "test:unit:watch": "jest --watch",
